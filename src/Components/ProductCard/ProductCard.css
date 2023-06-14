@@ -1,0 +1,52 @@
+.productCard {
+    padding: 20px;
+    border: 1px solid rgba(103, 103, 161, 0.493);
+    border-radius: 15px;
+    background-color: rgb(240, 237, 231);
+}
+
+
+
+.productCard:hover {
+    box-shadow: 0 2px 4px 0 rgb(138, 138, 202);
+}
+
+.productCard img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.priceBox p{
+    margin: 0;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.priceMonth {
+    padding: 5px 10px;
+    background-color: orangered;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.btnBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+
+}
+
+.btnBox button:hover {
+    box-shadow: 0 3px 5px 0 black;
+}

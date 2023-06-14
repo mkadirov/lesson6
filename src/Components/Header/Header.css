@@ -1,0 +1,56 @@
+
+header {
+    padding: 10px 20px;
+    
+    
+}
+
+.darkHeader {
+    background-color: rgb(51, 49, 49);
+}
+
+.container-box {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box {
+    height: 42px;
+    width: 40%;
+    padding: 3px;
+    background-color: rgb(198, 231, 231);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    background-color: inherit;
+    border: none;
+    outline-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.day {
+    width: 70px;
+}
+
+.night {
+    width: 70px;
+}

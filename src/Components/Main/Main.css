@@ -1,0 +1,10 @@
+.main {
+    width: 100%;
+    padding:50px 20px ;
+    height: 100vh;
+}
+
+.darkMain {
+    background-color: rgb(63, 59, 59);
+}
+
